@@ -1,0 +1,9 @@
+# Local follow-up to published v8
+
+Production verification on2026-10-16 exposed slower source requests from the hosted Worker than from local replay. Bidzaar consumed its25-second source budget on public search pages and never reached details; NVM verified7 details then exhausted its budget. Their old retry policy correctly imposed a backoff, so the second immediate NVM call returned429. Existing IDs and previously verified cards were retained. SIBUR12, NUTEP50 and Rosmorport20 were read successfully.
+
+This local correction reserves12 seconds for details, uses2 fixed regional+2 rotating queries in the hosted path, and stops a detail window with5 seconds remaining. The desktop/local default remains4+4 queries. Cursor progress reflects only completed queries; coverage remains partial. A new confirmed regional discovery is checked before refreshing previously verified classified cards. The client still caps20 requests and25 seconds and respects robots/403/429.
+
+A single collector-version recovery is permitted only for pre-fix `partial` state with positive observed records and final `time_budget` error. The run records budget-version2; further failures retain normal backoff. Forbidden/rate-limited sources do not qualify. This narrowly permits retrying the corrected implementation without resetting access restrictions or bulk-editing status metadata.
+
+Pre-publication checks: all153 existing tests passed;3 additional regressions verify the reserved time, new-card priority and one-time recovery/backoff boundary. A production build passed. This fix is on `fix/cloud-collection-budget`, separate from the published16-direction UI and the unreviewed structured-detail prototype. It has not been pushed or published. The one authorised Git credential was used for v8 and removed from memory; another publication requires a newly authorised short-lived credential.

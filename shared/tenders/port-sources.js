@@ -1,0 +1,6 @@
+import {NUTEP_URL,ROSMORPORT_URL,ROSMORPORT_PRICES_URL} from './port-html.js';
+const base={country:'RU',type:'customer_portal',enabled:true,initial_status:'not_checked',evidence:[],detail_sample_numbers:[],access:'Анонимный HTTPS HTML после robots.txt; без внешних API, регистрации и скачивания приложений.'};
+export const portSources=Object.freeze([
+ {...base,id:'nutep',name:'ООО «НУТЭП» — закупки',url:NUTEP_URL,adapter:'nutep',entry_urls:[NUTEP_URL],coverage:'Одна страница, текущий год и архивные процедуры в ней. Полнота источника не подтверждена.',limitations:'Срок на странице — только дата без часового пояса. Документы не скачиваются. Все записи HOLD/list_only; местоположение заказчика не считается местом работ.'},
+ {...base,id:'rosmorport_azov_black_sea',name:'Росморпорт — Азово-Черноморский филиал',url:ROSMORPORT_URL,adapter:'rosmorport_azov_black_sea',entry_urls:[ROSMORPORT_URL,ROSMORPORT_PRICES_URL],coverage:'Первая страница процедур и первая страница запросов цен. НМЦК выделяется отдельно; архив и остальные страницы не охвачены.',limitations:'Ссылки ЕИС/ЭТП сохраняются без перехода. Сроки, документы и точные адреса в канонических карточках не проверены. Это список заказчика, а не подтверждённый канал сбора ЕИС.'}
+]);

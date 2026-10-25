@@ -1,0 +1,772 @@
+{
+  "schema_version": 1,
+  "source": {
+    "site": "https://ra-xott.com",
+    "site_version": 138,
+    "git_commit": "b946606f41c39224526031cf3be02cd8331e99ce",
+    "checked_utc": "2026-10-16T22:06:08.271100+00:00",
+    "live_app_js_matches_source": true,
+    "raw_catalog": "source-catalog.json",
+    "evidence": "live-source-evidence.json"
+  },
+  "top_level_service_count": 16,
+  "raw_source_record_count": 19,
+  "consolidation_note": "Four legacy outdoor records are merged into one visible card. Do not create 19 top-level categories or lose the outdoor subdirections.",
+  "groups": [
+    {
+      "id": "outdoor_and_light",
+      "label": "Наружная реклама и световые решения",
+      "service_ids": [
+        "outdoor_signage_led",
+        "slim_panels"
+      ]
+    },
+    {
+      "id": "digital_and_content",
+      "label": "Сайты, цифровые услуги и контент",
+      "service_ids": [
+        "web_development",
+        "industrial_digital_optimization",
+        "smm",
+        "marketplace_infographics",
+        "photo_video"
+      ]
+    },
+    {
+      "id": "brand_and_print",
+      "label": "Брендинг, дизайн и печатные носители",
+      "service_ids": [
+        "branding_design",
+        "print_merch_packaging",
+        "layouts_brochures"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Размещение в СМИ",
+      "service_ids": [
+        "magazines_online_media"
+      ],
+      "cross_references": [
+        "events_promotions.tv_radio"
+      ],
+      "selection_ids": [
+        "magazines_online_media",
+        "events_promotions.tv_radio"
+      ]
+    },
+    {
+      "id": "events_and_technology",
+      "label": "Мероприятия и технологические активации",
+      "service_ids": [
+        "events_promotions",
+        "service_robot_rental",
+        "multimedia_interactive"
+      ]
+    },
+    {
+      "id": "urban_environment",
+      "label": "МАФ и городская среда",
+      "service_ids": [
+        "small_architectural_forms"
+      ]
+    },
+    {
+      "id": "trademark",
+      "label": "Защита бренда",
+      "service_ids": [
+        "trademark_registration"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "outdoor_signage_led",
+      "site_title": "Наружная реклама, вывески и LED-экраны",
+      "site_description": "Размещаем наружную рекламу по России. Изготавливаем световые вывески и объёмные буквы, продаём и устанавливаем LED-экраны",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "наружная реклама",
+        "размещение наружной рекламы",
+        "реклама на билбордах",
+        "реклама на видеоэкранах",
+        "DOOH",
+        "световые вывески",
+        "объемные буквы",
+        "LED-экран",
+        "светодиодный экран",
+        "фасадное оформление"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "page_urls": [
+        "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-rossiya/",
+        "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-sochi/",
+        "https://ra-xott.com/svetovye-vyveski/",
+        "https://ra-xott.com/led-ekrany/"
+      ],
+      "subdirections": [
+        {
+          "id": "outdoor_signage_led.placement",
+          "site_title": "Размещение рекламы на видеоэкранах",
+          "also_page_title": "Размещение наружной рекламы по России",
+          "page_urls": [
+            "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-rossiya/",
+            "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-sochi/"
+          ],
+          "synonyms": [
+            "рекламные конструкции",
+            "рекламные плоскости",
+            "билборд",
+            "ситиборд",
+            "цифровой билборд",
+            "размещение на LED-экране",
+            "медиаразмещение",
+            "подбор рекламных площадок"
+          ]
+        },
+        {
+          "id": "outdoor_signage_led.signage",
+          "site_title": "Вывески и наружное оформление",
+          "also_source_titles": [
+            "Световые вывески",
+            "Наружная реклама и вывески"
+          ],
+          "page_urls": [
+            "https://ra-xott.com/svetovye-vyveski/"
+          ],
+          "synonyms": [
+            "изготовление вывесок",
+            "световые объемные буквы",
+            "оформление фасадов",
+            "оформление витрин",
+            "широкоформатная печать",
+            "интерьерная печать",
+            "согласование рекламных конструкций"
+          ]
+        },
+        {
+          "id": "outdoor_signage_led.led_supply",
+          "site_title": "Продажа и установка LED-экранов",
+          "page_urls": [
+            "https://ra-xott.com/led-ekrany/"
+          ],
+          "synonyms": [
+            "поставка светодиодного экрана",
+            "поставка LED-дисплея",
+            "установка видеоэкрана",
+            "монтаж LED-экрана",
+            "оборудование светодиодного экрана"
+          ]
+        }
+      ],
+      "legacy_source_titles": [
+        "Видеоэкраны и динамическая реклама",
+        "Продажа и установка LED-экранов",
+        "Наружная реклама и вывески",
+        "Световые вывески"
+      ]
+    },
+    {
+      "id": "web_development",
+      "site_title": "Разработка сайтов для среднего и крупного бизнеса",
+      "site_description": "Для среднего и крупного бизнеса разных направлений, включая промышленные предприятия",
+      "site_items": [
+        "Сайты, лендинги и интернет-магазины",
+        "SEO",
+        "Интернет-продвижение",
+        "Состав работ определяется под задачу"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": "https://ra-xott.com/factoria/",
+      "surface": "card_and_page",
+      "procurement_synonyms": [
+        "разработка сайта",
+        "создание сайта",
+        "корпоративный сайт",
+        "B2B-сайт",
+        "сайт производителя",
+        "сайт-каталог",
+        "лендинг",
+        "интернет-магазин",
+        "SEO",
+        "поисковое продвижение",
+        "международное SEO",
+        "локализация сайта"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "brand_aliases": [
+        "Фактория",
+        "Factoria"
+      ],
+      "brand_is_not_extra_service": true,
+      "confirmed_factoria_subdirections": [
+        "Сайт для промышленного производителя",
+        "Сайт для новых рынков",
+        "Международное SEO",
+        "Английская версия сайта",
+        "Продуктовые и отраслевые страницы",
+        "Контент",
+        "Техническое SEO",
+        "Аналитика"
+      ]
+    },
+    {
+      "id": "industrial_digital_optimization",
+      "site_title": "Цифровая оптимизация промышленных предприятий",
+      "site_description": "Оптимизация рабочих процессов и адаптация сайта для выхода на новые рынки",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "цифровая оптимизация предприятия",
+        "оптимизация рабочих процессов",
+        "адаптация сайта",
+        "выход на новые рынки"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "manual_scope_review": true
+    },
+    {
+      "id": "branding_design",
+      "site_title": "Брендинг и дизайн",
+      "site_description": "Фирменный стиль, брендбук и логотип Общий визуальный язык для коммуникаций и носителей",
+      "site_items": [
+        "Нейминг и слоганы",
+        "Логотип",
+        "Фирменный стиль",
+        "Брендбук",
+        "Дизайн рекламных материалов"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "брендинг",
+        "айдентика",
+        "разработка логотипа",
+        "фирменный стиль",
+        "брендбук",
+        "нейминг",
+        "слоган",
+        "ребрендинг",
+        "дизайн рекламных материалов"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "smm",
+      "site_title": "SMM и продвижение в соцсетях",
+      "site_description": "Продвижение компаний и проектов в социальных сетях",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "SMM",
+        "ведение социальных сетей",
+        "ведение аккаунтов",
+        "контент для соцсетей",
+        "продвижение в социальных сетях",
+        "видео для социальных сетей"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "subdirections": [
+        {
+          "site_title": "Ведение аккаунтов"
+        },
+        {
+          "site_title": "Видео для социальных сетей"
+        }
+      ]
+    },
+    {
+      "id": "slim_panels",
+      "site_title": "Световые SLIM-панели",
+      "site_description": "Продажа SLIM-панелей для оформления витрин и интерьеров торговых точек",
+      "site_items": [
+        "Кристалайты, фреймлайты и магнетики"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "световая SLIM-панель",
+        "световая панель",
+        "кристалайт",
+        "фреймлайт",
+        "магнетик",
+        "световая рекламная панель"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "print_merch_packaging",
+      "site_title": "Полиграфия, сувениры и упаковка",
+      "site_description": "Печатные материалы и носители бренда с единым визуальным решением",
+      "site_items": [
+        "Календари, визитки и листовки",
+        "Меню, плейсметы и каталоги",
+        "Сувенирная продукция с нанесением",
+        "Упаковка и дизайн носителей"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": "https://ra-xott.com/uslugi/dizayn-i-pechat-poligrafii-sochi/",
+      "surface": "card_and_page",
+      "procurement_synonyms": [
+        "полиграфия",
+        "печать рекламной продукции",
+        "визитки",
+        "листовки",
+        "календари",
+        "меню",
+        "каталоги",
+        "сувенирная продукция",
+        "нанесение логотипа",
+        "брендированная продукция",
+        "упаковка",
+        "дизайн упаковки"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "layouts_brochures",
+      "site_title": "Разработка макетов и буклетов",
+      "site_description": "Макеты и буклеты для ресторанов и других компаний",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "разработка макета",
+        "дизайн-макет",
+        "верстка",
+        "дизайн буклета",
+        "буклет",
+        "допечатная подготовка",
+        "макет рекламной полиграфии"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "related_page_urls": [
+        "https://ra-xott.com/uslugi/dizayn-i-pechat-poligrafii-sochi/"
+      ]
+    },
+    {
+      "id": "magazines_online_media",
+      "site_title": "Размещение рекламы в журналах и онлайн-медиа",
+      "site_description": "Рекламные полосы, развороты, имиджевые статьи и спецпроекты в журналах и онлайн-медиа. Подбираем издание и формат под вашу аудиторию и задачу",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": "https://ra-xott.com/reklama-v-zhurnalah-i-onlayn-media/",
+      "surface": "card_and_page",
+      "procurement_synonyms": [
+        "размещение рекламы в СМИ",
+        "журнальная реклама",
+        "рекламная полоса",
+        "разворот журнала",
+        "имиджевая статья",
+        "рекламная статья",
+        "нативная реклама",
+        "спецпроект",
+        "баннерная реклама в онлайн-СМИ",
+        "брендирование страницы"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "marketplace_infographics",
+      "site_title": "Инфографика для маркетплейсов",
+      "site_description": "Инфографика, коллажи и обработка фото для Wildberries, Ozon, Яндекс Маркета и AliExpress",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "инфографика для маркетплейса",
+        "дизайн карточки товара",
+        "контент для маркетплейсов",
+        "товарная инфографика",
+        "коммерческий коллаж",
+        "обработка товарных фотографий",
+        "Wildberries",
+        "Ozon",
+        "Яндекс Маркет",
+        "AliExpress"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "photo_video",
+      "site_title": "Фото и видео",
+      "site_description": "Визуальные материалы для бренда, продукта, события и цифровых каналов",
+      "site_items": [
+        "Фотопроизводство",
+        "Видео и монтаж",
+        "Контент для экранов",
+        "Разработка концепций и адаптация роликов и креативов под экраны"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "фотосъемка",
+        "видеосъемка",
+        "фотопроизводство",
+        "предметная съемка",
+        "видеопроизводство",
+        "монтаж видео",
+        "рекламный ролик",
+        "контент для экранов",
+        "адаптация роликов"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "events_promotions",
+      "site_title": "Мероприятия и промоакции",
+      "site_description": "Организовывали мероприятия. События, объединённые идеей и вниманием к деталям",
+      "site_items": [
+        "Мероприятия и конференции",
+        "Реклама на телевидении и радио",
+        "Флешмобы и промоакции",
+        "Оформление события",
+        "Помощь в организации фестивалей"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "организация мероприятий",
+        "конференция",
+        "промоакция",
+        "флешмоб",
+        "оформление мероприятия",
+        "организация фестиваля",
+        "реклама на телевидении",
+        "реклама на радио",
+        "размещение ролика на ТВ"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true,
+      "subdirections": [
+        {
+          "id": "events_promotions.event_management",
+          "site_title": "Мероприятия и конференции"
+        },
+        {
+          "id": "events_promotions.tv_radio",
+          "site_title": "Реклама на телевидении и радио",
+          "synonyms": [
+            "размещение рекламы на ТВ",
+            "реклама на радио",
+            "эфирное размещение",
+            "трансляция рекламного ролика"
+          ],
+          "page_url": null,
+          "visibility": "Listed inside events service; also supported by a portfolio campaign, not a standalone service card"
+        },
+        {
+          "id": "events_promotions.promotions",
+          "site_title": "Флешмобы и промоакции"
+        },
+        {
+          "id": "events_promotions.event_design",
+          "site_title": "Оформление события"
+        },
+        {
+          "id": "events_promotions.festivals",
+          "site_title": "Помощь в организации фестивалей"
+        }
+      ]
+    },
+    {
+      "id": "service_robot_rental",
+      "site_title": "Аренда сервисных роботов",
+      "site_description": "Сервисные роботы для форумов, свадеб, банкетов, дней рождения, выставок и конференций. Дополнительно доступны доставка, техническое сопровождение и брендирование под мероприятие",
+      "site_items": [],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "аренда сервисного робота",
+        "аренда робота-официанта",
+        "аренда BellaBot",
+        "робот для мероприятия",
+        "брендирование робота",
+        "сопровождение аренды робота"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "multimedia_interactive",
+      "site_title": "Мультимедиа и интерактив",
+      "site_description": "Технологии и контент для взаимодействия с аудиторией",
+      "site_items": [
+        "Дополненная и виртуальная реальность (AR/VR)",
+        "Мэппинг, фасадные проекции и голограммы",
+        "Интерактивные столы и светодиодные фотозоны",
+        "Гобопроекции в помещении и на улице",
+        "Видеоконтент и экраны"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "мультимедиа",
+        "интерактив",
+        "дополненная реальность",
+        "виртуальная реальность",
+        "AR",
+        "VR",
+        "видеомэппинг",
+        "фасадная проекция",
+        "голограмма",
+        "голографическая проекция",
+        "интерактивный стол",
+        "светодиодная фотозона",
+        "гобопроекция"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "small_architectural_forms",
+      "site_title": "МАФ и благоустройство",
+      "site_description": "Малые архитектурные формы для жилых комплексов и городских пространств",
+      "site_items": [
+        "Беседки",
+        "Лавочки",
+        "Детские площадки",
+        "Парклеты",
+        "Велопарковки",
+        "Кашпо"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "малые архитектурные формы",
+        "МАФ",
+        "беседки",
+        "скамейки",
+        "лавочки",
+        "детские площадки",
+        "парклеты",
+        "велопарковки",
+        "кашпо"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    },
+    {
+      "id": "trademark_registration",
+      "site_title": "Регистрация товарного знака",
+      "site_description": "Сопровождение регистрации товарного знака в Роспатенте",
+      "site_items": [
+        "Предварительная проверка товарного знака",
+        "Подбор классов МКТУ",
+        "Подготовка и подача заявки",
+        "Сопровождение экспертизы и ответы на запросы",
+        "Состав работ и стоимость определяются индивидуально"
+      ],
+      "entry_url": "https://ra-xott.com/#services",
+      "page_url": null,
+      "surface": "card_modal",
+      "procurement_synonyms": [
+        "регистрация товарного знака",
+        "товарный знак",
+        "проверка товарного знака",
+        "подбор классов МКТУ",
+        "заявка в Роспатент",
+        "сопровождение регистрации товарного знака"
+      ],
+      "synonyms_are_search_aliases_not_extra_capability_claims": true
+    }
+  ],
+  "selection_contract": {
+    "mode_values": [
+      "all",
+      "selected"
+    ],
+    "default_mode": "all",
+    "id_field": "service_ids",
+    "multiple": true,
+    "match_operator": "OR",
+    "group_behavior": "Expand selection_ids where present, otherwise service_ids; allow partial/indeterminate state. A cross-reference to a subdirection selects that subdirection, not all unrelated parent services.",
+    "subdirection_behavior": "Parent includes its subdirections. A child ID can be selected independently if TSC supports narrower matching.",
+    "empty_selected_behavior": "Require at least one service, or explicit all mode; do not silently interpret an empty list as all.",
+    "deduplication": "One tender record may have many matched_service_ids; deduplicate by tender identity.",
+    "all_service_ids": [
+      "outdoor_signage_led",
+      "web_development",
+      "industrial_digital_optimization",
+      "branding_design",
+      "smm",
+      "slim_panels",
+      "print_merch_packaging",
+      "layouts_brochures",
+      "magazines_online_media",
+      "marketplace_infographics",
+      "photo_video",
+      "events_promotions",
+      "service_robot_rental",
+      "multimedia_interactive",
+      "small_architectural_forms",
+      "trademark_registration"
+    ]
+  },
+  "not_service_categories": [
+    {
+      "names": [
+        "Double Bottle Co",
+        "Holiday Spirit",
+        "bezuslove",
+        "ERGON"
+      ],
+      "reason": "Portfolio examples or personal/concept projects, not RA service directions. Tours/excursions, villa rental/property transactions, spiritual/personal practice and crusher/pump/equipment supply are not inferred."
+    },
+    {
+      "names": [
+        "Запуск бренда и бизнеса",
+        "Открытие ресторана",
+        "Продвижение мероприятия",
+        "Ребрендинг",
+        "Оформление объекта",
+        "Контент для маркетплейсов"
+      ],
+      "reason": "Scenario bundles; #solutions is hidden in current home HTML. Reuse as aliases or combinations of existing services, not extra supplier categories."
+    },
+    {
+      "names": [
+        "Фактория",
+        "Factoria"
+      ],
+      "reason": "Actual offered web-development brand, linked from the service card. Include under web_development, not as a separate duplicate category."
+    }
+  ],
+  "negative_matching_policy": "Do not blacklist client-industry words globally. A website tender for a tour operator or an equipment producer still belongs to web_development when web work is the actual procurement object.",
+  "uncertainties": [
+    {
+      "service_ids": [
+        "industrial_digital_optimization"
+      ],
+      "note": "Only process optimization and site adaptation are described. Do not infer ERP/MES/CRM/SCADA/АСУ ТП, equipment supply or industrial engineering automatically."
+    },
+    {
+      "service_ids": [
+        "small_architectural_forms"
+      ],
+      "note": "Product types are explicit; manufacturing, installation, earthworks, capital construction and required admissions are not fully specified. Review each tender scope."
+    },
+    {
+      "service_ids": [
+        "smm",
+        "web_development"
+      ],
+      "note": "Internet promotion is broad. Paid search/contextual ads, targeted advertising platforms and budget management are not separately explicit in the current service text; treat as manual-review matches."
+    },
+    {
+      "service_ids": [
+        "outdoor_signage_led",
+        "magazines_online_media",
+        "events_promotions.tv_radio"
+      ],
+      "note": "Placement availability, media inventory and current rates require confirmation. No owned advertising surfaces, guaranteed slots or current TV/radio inventory should be inferred."
+    },
+    {
+      "service_ids": [
+        "outdoor_signage_led.led_supply",
+        "slim_panels"
+      ],
+      "note": "Distinguish advertising LED screens and SLIM display panels from generic lighting, television sets, lamps and unrelated electrical supplies."
+    },
+    {
+      "service_ids": [
+        "service_robot_rental"
+      ],
+      "note": "Rental of event/hospitality service robots is offered; do not infer sale of industrial manipulators, RPA software or all robotics procurement."
+    },
+    {
+      "service_ids": [
+        "trademark_registration"
+      ],
+      "note": "Trademark registration only; do not generalize to invention patents, company registration or all legal services."
+    },
+    {
+      "service_ids": [
+        "web_development"
+      ],
+      "note": "Factoria producer sectors describe web clients, not equipment sold by RA XOTT. Foreign-market site localization/SEO are supported; overseas physical manufacturing/installation are not established."
+    },
+    {
+      "service_ids": [
+        "layouts_brochures",
+        "print_merch_packaging",
+        "photo_video",
+        "marketplace_infographics",
+        "smm"
+      ],
+      "note": "Legitimate overlap. Assign multiple service tags and deduplicate tender records, rather than forcing exactly one category."
+    },
+    {
+      "service_ids": [
+        "service_robot_rental",
+        "multimedia_interactive"
+      ],
+      "note": "Exact robot models, available inventory, rental quantities and complex AR/VR or integration requirements must be confirmed; illustrative images are not inventory or capability guarantees."
+    },
+    {
+      "service_ids": [
+        "events_promotions"
+      ],
+      "note": "The current card is offered in the active catalogue but its description uses past tense (organized events). Confirm present delivery scope/resources for each event tender."
+    }
+  ],
+  "site_changes": false,
+  "tokens_created": 0,
+  "verified_service_pages": [
+    {
+      "url": "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-rossiya/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-rossiya/",
+      "page_h1": "Размещение наружной рекламы по России"
+    },
+    {
+      "url": "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-sochi/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/razmeshchenie-naruzhnoy-reklamy-sochi/",
+      "page_h1": "Размещение наружной рекламы в Сочи"
+    },
+    {
+      "url": "https://ra-xott.com/svetovye-vyveski/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/svetovye-vyveski/",
+      "page_h1": "Световые вывески для бизнеса"
+    },
+    {
+      "url": "https://ra-xott.com/led-ekrany/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/led-ekrany/",
+      "page_h1": "Продажа LED-экранов для бизнеса"
+    },
+    {
+      "url": "https://ra-xott.com/uslugi/dizayn-i-pechat-poligrafii-sochi/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/uslugi/dizayn-i-pechat-poligrafii-sochi/",
+      "page_h1": "Дизайн и печать полиграфии в Сочи"
+    },
+    {
+      "url": "https://ra-xott.com/reklama-v-zhurnalah-i-onlayn-media/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/reklama-v-zhurnalah-i-onlayn-media/",
+      "page_h1": "В журналах. В онлайн- медиа."
+    },
+    {
+      "url": "https://ra-xott.com/factoria/",
+      "status": 200,
+      "canonical": "https://ra-xott.com/factoria/",
+      "page_h1": "САЙТЫ ДЛЯ ПРОМЫШЛЕННЫХ ПРОИЗВОДИТЕЛЕЙ"
+    }
+  ],
+  "grouping_is_recommended_not_site_navigation": true
+}

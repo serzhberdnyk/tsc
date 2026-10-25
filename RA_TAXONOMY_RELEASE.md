@@ -1,0 +1,11 @@
+# TSC: 16 verified company directions
+
+The service catalogue is the verified RA XOTT v138 snapshot, checked2026-10-16; Factoria is an alias/source page under website development, not a seventeenth service. Portfolio examples are not new capabilities. Deterministic matching supplies IDs, matched terms and supporting service URLs. Industrial optimisation does not expand into ERP/АСУТП; robotics does not imply industrial robot supply; generic legal work is not trademark registration.
+
+API data and local exports project the catalogue onto existing records without changing their source facts, IDs or proof times. Raw `/api/export` remains a backup of stored records. New observations retain the derived service annotations; UI renders each record once even with several matching directions. Direction selections use OR, combined with text/source/current filters using AND. Unknown statuses, timezones and work geography never become verified active leads.
+
+UI: one collection, no separate new-publications block; all16 directions selected initially, accessible checkbox popover, clear selection/reset, per-country state. Newest first is default, nearest closing date is the alternative. There is no artificial relevance ranking. Current-only is independently enabled initially; clearing it reveals matching expired/unverified publications with their actual labels. Thailand remains unconnected and isolated. TSC branding, themes, favicon and keyboard controls are retained.
+
+Bidzaar uses4 fixed +4 rotating public HTML queries per source run. The durable next cursor advances only after completed rotating queries;141 observed catalogue/search terms take36 bounded cycles. This is partial discovery, not a full platform guarantee. Existing source access restrictions in SOURCE_REPAIR_NOTES.md remain enforced. No accounts, paid APIs, access bypass or outreach are part of this release.
+
+Pre-publication validation:145 tests, production build and TypeScript passed. Saved real source proofs reproduce restored375-894 through the cloud collector, persistence and search. Isolated lab retains211 records and all204 original production IDs. Public source limitations and unknown values are preserved. Runtime D1/R2 bindings, auth, owner-private audience and the existing hourly task are unchanged.
